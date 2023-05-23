@@ -28,7 +28,6 @@ The table will be displayed as a Field of the resource, without any actions and 
 
 ```php
 
-use Jetcost\Nova\Resource;
 use Laravel\Nova\Fields\HasMany;
 use Laravel\Nova\Http\Requests\NovaRequest;
 
@@ -50,7 +49,6 @@ You can manage Field visibility on related resource through the new methods `hid
 
 ```php
 
-use Jetcost\Nova\Resource;
 use Laravel\Nova\Fields\ID;
 use Laravel\Nova\Fields\BelongsTo;
 use Laravel\Nova\Fields\Text;
